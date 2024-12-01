@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Array 1 Dimensi
+        // Array 1 Dimensi - proses memasukkan ukuran array
         System.out.println("=== Operasi Array 1 Dimensi ===");
         System.out.print("Masukkan ukuran array: ");
         int n = scanner.nextInt();
@@ -23,7 +23,7 @@ public class Main {
         }
         System.out.println();
 
-        // Array 2 Dimensi
+        // Array 2 Dimensi - proses memasukkan ukuran baris dan kolom
         System.out.println("\n=== Operasi Array 2 Dimensi ===");
         System.out.print("Masukkan jumlah baris: ");
         int rows = scanner.nextInt();
